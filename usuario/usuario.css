@@ -1,0 +1,213 @@
+header {
+  background-color: #E6E6E6;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+a.botoes {
+  text-decoration: none;
+  color: rgb(48, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+  font-size: 17px;
+}
+
+table #menu:hover{
+  color: rgb(0, 0, 0);
+}
+
+table td.logo{
+  padding: 15px;
+  padding-right: 70px;
+  cursor: pointer;
+}
+
+table td.icon-login {
+  padding-left: 35px;
+  padding-right: 7px;
+  cursor: pointer;
+}
+
+table td.icon-sacola {
+  padding: 10px;
+  padding-right: 15px; 
+}
+
+table td.icon-search {
+  padding: 15px;
+}
+
+.searchArea {
+  border: solid rgba(102, 102, 102, 0.644);
+  border-radius: 8px;
+  border-width: 1px; 
+}
+
+.iconSearch {
+  padding-left: 2px;
+  padding-right: 3px;
+}
+
+#searchBox {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#titulo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container { 
+  width: 700px; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.iconInstagram {
+  width: 30px;
+  margin-left: 930px;
+}
+
+.iconPinterest {
+  width: 25px;
+}
+
+.iconFacebook {
+  width: 30px;
+}
+
+.iconWhatsapp {
+  width: 25px;
+}
+
+.campo{
+  width: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: solid 1px #CCC;
+  border-radius: 2px;
+  font-family: Arial;
+  margin-top: 3px; 
+}
+
+.containerC { 
+  width: 700px; 
+  margin-left: 500px;
+  padding: 15px;
+}
+
+.cadastro {
+  border: solid 1px #CCC;
+  padding: 15px;
+}
+
+.botaoC {
+  border: solid black;
+  border-radius: 4px;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  width: 283px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.imagemC {
+  width: 200px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.textoC {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(160, 160, 160);
+  font-size: 14px;
+}
+
+#loginC a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+  margin-left: 107px;
+  font-size: 14px;
+}
+
+#loginC a:hover {
+  text-decoration: underline;
+}
+
+.cadastro2 {
+  border: solid 1px #CCC;
+  padding: 15px;
+  width: 321px;
+  margin-top: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.iconInstagram {
+  width: 30px;
+  margin-left: 930px;
+}
+
+.iconPinterest {
+  width: 25px;
+}
+
+.iconFacebook {
+  width: 30px;
+}
+
+.iconWhatsapp {
+  width: 25px;
+}
+
+#cadastroC a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+  margin-left: 107px;
+  font-size: 14px;
+}
+
+#cadastroC a:hover {
+  text-decoration: underline;
+}
+
+#footerC {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E6E6E6;
+  text-decoration: none;
+  color: black;
+  margin-top: 90px;
+}
+
+#footerC a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+#rodapeC {
+  margin-left: 570px;
+}
