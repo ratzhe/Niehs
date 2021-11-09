@@ -29,7 +29,9 @@ table td.icon-login {
 }
 
 table td.icon-sacola {
-  padding: 15px;
+  padding: 10px;
+  padding-right: 15px;
+  cursor: pointer;
 }
 
 table td.icon-search {
@@ -126,22 +128,31 @@ footer {
   color: black;
   font-size: 13px;
 }
-
+/*ESTILIZAÇÃO DO ICON DO INSTAGRAM*/
 .iconInstagram {
   width: 30px;
-  margin-left: 930px;
+  position: absolute;
+  right: 200px;
 }
-
+/*ESTILIZAÇÃO DO ICON DO PINTEREST*/
 .iconPinterest {
   width: 25px;
+  position: absolute;
+  right: 150px;
 }
-
+/*ESTILIZAÇÃO DO ICON DO FACEBOOK*/
 .iconFacebook {
   width: 30px;
+  position: absolute;
+  right: 100px;
 }
-
+/*ESTILIZAÇÃO DO ICON DO WHATSAPP*/
 .iconWhatsapp {
-  width: 25px;
+  width: 27px;
+  position: absolute;
+  right: 50px;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
 }
 
 .fotoRoupa {
