@@ -1,0 +1,225 @@
+/*ESTILIZAÇÃO DO CABEÇALHO*/
+header {
+  background-color: #E6E6E6;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+/*ESTILIZAÇÃO DO MENU*/
+#menu {
+  height: 100%;
+  widows: 100%;
+  margin: auto;
+}
+/*ESTILIZAÇÃO DO HOVER DAS OPÇÕES DO MENU*/
+table #menu:hover{
+  color: rgb(0, 0, 0);
+}
+/*ESTILIZAÇÃO DAS OPÇÕES DO MENU*/
+a.botoes {
+  text-decoration: none;
+  color: rgb(48, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+  font-size: 17px;
+}
+/*ESTILIZAÇÃO DA LOGO*/
+table td.logo{
+  padding: 15px;
+  padding-right: 70px;
+  cursor: pointer;
+}
+/*ESTILIZAÇÃO DO ICON DE LOGIN*/
+table td.icon-login {
+  padding-left: 35px;
+  padding-right: 7px;
+  cursor: pointer;
+}
+/*ESTILIZAÇÃO DO ICON DE SACOLA*/
+table td.icon-sacola {
+  padding: 10px;
+  padding-right: 15px; 
+}
+/*ESTILIZAÇÃO DO ICON DE PESQUISA*/
+table td.icon-search {
+  padding: 15px;
+}
+/*ESTILIZAÇÃO DO CAMPO DE PESQUISA*/
+.searchArea {
+  border: solid rgba(102, 102, 102, 0.644);
+  border-radius: 8px;
+  border-width: 1px; 
+}
+
+.iconSearch {
+  padding-left: 2px;
+  padding-right: 3px;
+}
+
+#searchBox {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+/*ESTILIZAÇÃO DE TITULO*/
+#titulo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo a {
+  color: black;
+  text-decoration: none;
+}
+/*ESTILIZAÇÃO DO CONTAINER*/
+.container { 
+  width: 700px; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.Container {
+  background-color: rgba(204, 204, 204, 0.123);
+  margin-left: 380px;
+  margin-right: 380px;
+  padding-left: 20px;
+  padding-right: 100px;
+}
+.containerFoto {
+  padding-bottom: 140px;
+  margin-bottom: 20px;
+  background-image: url(https://images-ext-2.discordapp.net/external/dSQbooH8v5mKeX7kbh1F_0vVPyKx-1BQaTL2OvbRTNU/https/cdn.vox-cdn.com/thumbor/RSVpaW37_wie2_Ch_jPJE6MmN40%3D/0x0%3A6016x4016/1200x675/filters%3Afocal%282527x1527%3A3489x2489%29/cdn.vox-cdn.com/uploads/chorus_image/image/68832785/GettyImages_1177471633.0.jpg?width=400&height=225);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.containerBotao {
+  margin-left: 46%;
+}
+/*ESTILIZAÇÃO DO BOTÃO*/
+#Botao {
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.486);
+  color: white;
+  padding: 15px;
+  margin-left: 46%;
+  margin-top: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+/*ESTILIZAÇÃO DA FRASE PARA CATIVAR O USUÁRIO*/
+#frase {
+  font-size: 17px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.486);
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 200px;
+  margin-left: 40%;
+}
+/*ESTILIZAÇÃO DO TITULO DAS FOTOS DOS PRODUTOS MAIS VENDIDOS*/
+#tituloProduto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+/*ESTILIZAÇÃO DAS FOTOS DOS PRODUTOS MAIS VENDIDOS*/
+.fotoProduto {
+  width: 230px;
+  background-color: #E6E6E6;
+}
+.fotoProduto:hover {
+  background-color: rgba(230, 230, 230, 0.582);
+}
+/*ESTILIZAÇÃO DO BOTÃO DOS PRODUTOS MAIS VENDIDOS*/
+#botao {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+#botao:hover {
+  background-color: rgba(0, 0, 0, 0.808);
+}
+/*ESTILIZAÇÃO DO BOTÃO PRÓXIMO DOS PRODUTOS MAIS VENDIDOS*/
+#botaoProximo{
+  width: 60px;
+}
+/*ESTILIZAÇÃO DO HR*/
+.hr {
+  margin-right: -100px;
+  margin-left: -20px;
+}
+/*ESTILIZAÇÃO DE TITULO DA SESSÃO DE COMENTÁRIOS*/
+.tituloComentario {
+  margin-left: 185px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+/*ESTILIZAÇÃO DE COMENTÁRIO*/
+#comentario {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*ESTILIZAÇÃO DAS FOTOS DA SESSÃO COMENTÁRIOS*/
+#fotoComentario {
+  width: 75px;
+}
+/*ESTILIZAÇÃO DA DATA DA SESSÃO COMENTÁRIOS*/
+#dataComentario {
+  color: grey;
+}
+
+caption {
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+/*ESTILIZAÇÃO DAS ESTRELAS DA SESSÃO COMENTÁRIOS*/
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa{
+  font-size: 20px;
+  cursor: pointer;
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: rgb(77, 76, 76);
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+
+::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*ESTILIZAÇÃO DO RODAPÉ*/
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+/*ESTILIZAÇÃO DO ICON DO INSTAGRAM*/
+.iconInstagram {
+  width: 30px;
+  margin-left: 930px;
+}
+/*ESTILIZAÇÃO DO ICON DO PINTEREST*/
+.iconPinterest {
+  width: 25px;
+}
+/*ESTILIZAÇÃO DO ICON DO FACEBOOK*/
+.iconFacebook {
+  width: 30px;
+}
+/*ESTILIZAÇÃO DO ICON DO WHATSAPP*/
+.iconWhatsapp {
+  width: 25px;
+}

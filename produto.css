@@ -1,0 +1,126 @@
+/*ESTILIZAÇÃO DO CABEÇALHO*/
+header {
+  background-color: #E6E6E6;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+/*ESTILIZAÇÃO DAS OPÇÕES DO MENU*/
+a.botoes {
+  text-decoration: none;
+  color: rgb(48, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+  font-size: 17px;
+}
+/*ESTILIZAÇÃO DO MENU*/
+#menu {
+  height: 100%;
+  widows: 100%;
+  margin: auto;
+}
+/*ESTILIZAÇÃO DO HOVER DAS OPÇÕES DO MENU*/
+table #menu:hover{
+  color: rgb(0, 0, 0);
+}
+/*ESTILIZAÇÃO DA LOGO*/
+table td.logo{
+  padding: 15px;
+  padding-right: 70px;
+  cursor: pointer;
+}
+/*ESTILIZAÇÃO DO ICON DE LOGIN*/
+table td.icon-login {
+  padding-left: 35px;
+  padding-right: 7px;
+  cursor: pointer;
+}
+/*ESTILIZAÇÃO DO ICON DE SACOLA*/
+table td.icon-sacola {
+  padding: 10px;
+  padding-right: 15px; 
+}
+/*ESTILIZAÇÃO DO ICON DE PESQUISA*/
+table td.icon-search {
+  padding: 15px;
+}
+/*ESTILIZAÇÃO DO CAMPO DE PESQUISA*/
+.searchArea {
+  border: solid rgba(102, 102, 102, 0.644);
+  border-radius: 8px;
+  border-width: 1px; 
+}
+
+.iconSearch {
+  padding-left: 2px;
+  padding-right: 3px;
+}
+
+#searchBox {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+/*ESTILIZAÇÃO DO CONTAINER*/
+.container { 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+/*ESTILIZAÇÃO DA OPÇÃO DE VOLTAR PARA A PÁGINA ANTERIOR*/
+#voltar {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(48, 46, 46);
+  cursor: pointer;
+  padding-left: 417px;
+}
+
+#voltar:hover {
+  color: rgb(0, 0, 0);
+}
+/*ESTILIZAÇÃO DO PREÇO DOS PRODUTOS*/
+#preco {
+  color: rgba(0, 0, 0, 0.836);
+} 
+/*ESTILIZAÇÃO DO BOTÃO COMPRAR*/
+#comprar {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px; 
+  padding: 8px;
+  margin-left: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#comprar:hover {
+  background-color: rgba(0, 0, 0, 0.842);
+}
+/*ESTILIZAÇÃO DO RODAPÉ*/
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+/*ESTILIZAÇÃO DO ICON DO INSTAGRAM*/
+.iconInstagram {
+  width: 30px;
+  margin-left: 930px;
+}
+/*ESTILIZAÇÃO DO ICON DO PINTEREST*/
+.iconPinterest {
+  width: 25px;
+}
+/*ESTILIZAÇÃO DO ICON DO FACEBOOK*/
+.iconFacebook {
+  width: 30px;
+}
+/*ESTILIZAÇÃO DO ICON DO WHATSAPP*/
+.iconWhatsapp {
+  width: 25px;
+}
